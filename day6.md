@@ -21,7 +21,7 @@ niven←⍸0=⍳|⍨1⊥10⊥⍣¯1⍳
 def niven():[print(n)for n in range(1,101)if n%sum(map(int,str(n)))==0]
 ```
 
-### Python (73) by Duarte
+### (73) Python by Duarte
 
 ```python
 def niven():[print(i)for i in range(1,101)if i%sum([*map(int,str(i))])<1]
