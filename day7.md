@@ -23,7 +23,7 @@ Create a function `pcp(s)`, that returns the string that matches, if such list e
 
 See [Example 1](#example-1) for clarity.
 
-`s` is a set of 2-tuples, e.g `{(bc, ca), (a, ab)}`, where the first element is a string that is the top part of a "domino" and the second element is the bottom part. The alphabet of the strings is limited to `{a, b, c}`.
+`s` is a set of 2-tuples, e.g `{(bc, ca), (a, ab)}`, where the first element is a string that is the top part of a "domino" and the second element is the bottom part. The alphabet of the strings is limited to `{a, b, c}`. The strings are not empty and can have repeated characters.
 
 If such list exists, the matching string should be returned. Otherwise, the output is `no`.
 
